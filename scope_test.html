@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Scope TEST</title>
+	</head>
+	<body>
+		<script>
+
+			(function (){
+
+
+
+			var localVar = "Totally rad!";
+
+			rad();
+
+			function rad() {
+				alert (localVar);
+
+			}
+
+			
+
+			var localVar = "Boom goes the dynamte";
+
+			boom();
+
+			function boom() {
+				alert (localVar);
+			}
+
+			})();
+
+			var localVar = "Yo gimme some skin"
+
+			skin();
+
+			function skin() {
+				alert (localVar);
+			}
+
+		</script>
+	</body>
+</html>

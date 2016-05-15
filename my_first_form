@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>User Login</h1>
+		<form method="POST" action="http://requestb.in/pk1o9cpk">
+			<p>
+			<label for="username">Username</label>
+				<input id="username" name="username" type="text" placeholder="Enter username here">
+			</p>
+			<p>
+			<label for="password">Password</label>
+				<input id="password" name="password" type="password" placeholder="Enter password here">
+			</p>
+			<p>
+			<button typer="submit">Login</button>
+			</p>
+
+
+		<h1>Compose an email</h1>
+			<p>
+			<label for="subject">Subject</label>
+				<input id="subject" name="subject" type="text">
+			</p>
+			<p>
+			<label for="body">Body</label>
+				<textarea id="email_body" name="email_body" rows="5" cols="40"></textarea>
+				<input type="checkbox" id="save_to_sent_folder" name="save_to_sent_folder" value="yes" checked>
+				<label for="save_to_sent_folder">Save a copy of this email to my sent folder</label>
+			<button typer="submit">Send</button>
+			</p>
+
+		<h1>Multiple  Choice Test</h1>
+			<p>Who is my mother's favorite child?</p>
+			<label>
+				<input type="radio" name="q1" value="Me">
+				Me
+				</label>
+			<label>
+				<input type="radio" name="q1" value="Reed">
+				Reed
+			</label>
+			<label>
+				<input type="radio" name="q1" value="Claire">
+				Claire
+			</label>
+		
+
+
+			<p>What is your favorite color</p>
+			<label>
+				<input type="radio" name="q2" value="Red">
+				Red
+			</label>
+			<label>
+				<input type="radio" name="q2" value="Blue">
+				Blue
+			</label>
+			<label>
+				<input type="radio" name="q2" value="Green">
+				Green
+			</label>
+			<label>
+				<input type="radio" name="q2" value="It depends">
+				It depends
+			</label>
+			<label>
+				<input type="radio" name="q2" value="I'm colorblind">
+				I'm colorblind
+			</label>
+		
+
+			<p>Check the primary colors</p>
+			<label><input type="checkbox" id="os1" name="os[]" value="Red"> Red</label>
+			<label><input type="checkbox" id="os2" name="os[]" value="Blue"> Blue</label>
+			<label><input type="checkbox" id="os3" name="os[]" value="Green"> Green</label>
+			<label><input type="checkbox" id="os3" name="os[]" value="Black"> Black</label>
+			<label><input type="checkbox" id="os3" name="os[]" value="Orange">Orange</label>
+
+		<div>
+			<label for="os">What type of music do you listen to?</label>
+			<select id="os" name="os[]" multiple>
+				<option value="Rock">Rock</option>
+				<option value="Country">Country</option>
+				<option value="Jazz">Jazz</option>
+				<option value="Electronic">Electronic</option>
+			</select>
+		</div>
+
+
+		<h1>Select Testing</h1>
+			<label for="transmission">Is the world flat?</label>
+			<select id="transmission" name="transmission">
+				<option value="1">Yes</option>
+				<option value="0" selected>No</option>
+			</select>
+
+			<button typer="submit">Submit</button>
+		</form>	
+	</body>
+</html>
